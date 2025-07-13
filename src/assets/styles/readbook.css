@@ -1,0 +1,19 @@
+.readbook{
+    align-self: center;
+    justify-self: center;
+    margin-top: 10vh;
+    & .imag{
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+    }
+    & .title{
+        text-align: center;
+        color: red;
+    }
+     & .long{
+        text-align: center;
+        color: black(255, 255, 255, 0.505);
+    }
+
+}

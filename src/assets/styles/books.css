@@ -1,0 +1,49 @@
+.books{
+    min-height: 90vh;
+    width: 100%;
+    background-color: lightcyan;
+    & h2{
+        text-align: center;
+        padding: 2vh 0;
+        color:navy;
+        font-style: italic;
+    }
+
+    & .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 10vh;
+        column-gap: 3vw;
+        & .card{
+            border: 2px solid purple;
+            width:350px;
+         
+            & .image1{
+                display: flex;
+                justify-content: center; 
+                align-items: center;     
+                height: 50vh;   
+
+                & img{
+                    width: 80%;
+                    height: 50vh;
+                }
+            }
+            & .title{
+                text-align: center; 
+            }
+            & .aurthor{
+                text-align: center; 
+            }
+            & .categories{
+                text-align: center; 
+            }
+            & .del{
+                justify-items: end;
+                align-items: end;
+                
+            }
+        }
+    }
+}

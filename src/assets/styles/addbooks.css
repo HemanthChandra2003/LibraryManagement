@@ -1,0 +1,39 @@
+.addbooks {
+    height: 90vh;
+    width: 100%;
+    background-color: aqua;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3vh;
+
+    & .formbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid brown;
+        padding: 2rem;
+
+        & form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            height: auto;
+            
+
+            & input {
+                border: 1px solid red;
+                padding: 0.5rem;
+            }
+
+            & button {
+                padding: 0.5rem;
+                background-color: navy;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
